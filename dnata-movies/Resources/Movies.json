@@ -1,0 +1,72 @@
+[
+  {
+    "id": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301",
+    "title": "A Movie 1",
+    "releaseYear": 1992,
+    "runningTime": 92,
+    "genres": [ "3A638EEA-FB21-4911-95E7-4348782A57EB", "609ADE92-247D-4CF9-B079-B14B7379AE48" ]
+  },
+  {
+    "id": "81D6191D-9AF3-4250-956B-19E2C063AB65",
+    "title": "B Movie 2",
+    "releaseYear": 2014,
+    "runningTime": 102,
+    "genres": [ "3A638EEA-FB21-4911-95E7-4348782A57EB", "9D975629-CCA8-40D2-8E5D-43E5120BF408" ]
+  },
+  {
+    "id": "01F40D40-0DC2-4246-94F2-C15585FD7204",
+    "title": "C Movie 3",
+    "releaseYear": 1966,
+    "runningTime": 74,
+    "genres": [ "6F4D360D-F8D0-4BFA-9E70-BEB3CA88E837" ]
+  },
+  {
+    "id": "D21D2D26-767F-4E1C-B609-5DE09F00F8BC",
+    "title": "D Movie 4",
+    "releaseYear": 2000,
+    "runningTime": 81,
+    "genres": [ "B021338D-B8A3-4570-AF12-20076B6E1A10" ]
+  },
+  {
+    "id": "6292CE4C-2167-47DC-84EF-06B8BB8463E8",
+    "title": "E Movie 5",
+    "releaseYear": 2019,
+    "runningTime": 181,
+    "genres": [ "B021338D-B8A3-4570-AF12-20076B6E1A10", "02727BE2-A2EE-4B6E-90C6-0485D2A78290", "09F091B3-80B3-42C8-A6F2-F6861714A162" ]
+  },
+  {
+    "id": "5E8D0DA9-FEDF-46C6-9C22-48DAF0315088",
+    "title": "F Movie 6",
+    "releaseYear": 1992,
+    "runningTime": 103,
+    "genres": [ "545D3E1A-05CB-477E-9946-251079E0CC0C", "609ADE92-247D-4CF9-B079-B14B7379AE48" ]
+  },
+  {
+    "id": "E3A7EF4A-6C26-4824-A870-31F83EBE8205",
+    "title": "G Movie 7",
+    "releaseYear": 1996,
+    "runningTime": 95,
+    "genres": [ "B021338D-B8A3-4570-AF12-20076B6E1A10", "09F091B3-80B3-42C8-A6F2-F6861714A162" ]
+  },
+  {
+    "id": "E2A9BE25-A3BE-42F7-A16B-4D0BAA62796C",
+    "title": "H Movie 8",
+    "releaseYear": 2010,
+    "runningTime": 101,
+    "genres": [ "3A638EEA-FB21-4911-95E7-4348782A57EB", "609ADE92-247D-4CF9-B079-B14B7379AE48" ]
+  },
+  {
+    "id": "CEBBE7EA-72FD-4E68-8F38-5E8D2842380D",
+    "title": "I Movie 9",
+    "releaseYear": 2001,
+    "runningTime": 67,
+    "genres": [ "545D3E1A-05CB-477E-9946-251079E0CC0C" ]
+  },
+  {
+    "id": "CFF7214B-4492-436C-8847-8422F65C7FC3",
+    "title": "J Movie 10",
+    "releaseYear": 2014,
+    "runningTime": 110,
+    "genres": [ "3A638EEA-FB21-4911-95E7-4348782A57EB", "9D975629-CCA8-40D2-8E5D-43E5120BF408" ]
+  }
+]

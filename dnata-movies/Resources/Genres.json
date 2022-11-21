@@ -1,0 +1,34 @@
+[
+  {
+    "id": "3A638EEA-FB21-4911-95E7-4348782A57EB",
+    "title": "Action"
+  },
+  {
+    "id": "09F091B3-80B3-42C8-A6F2-F6861714A162",
+    "title": "British"
+  },
+  {
+    "id": "B021338D-B8A3-4570-AF12-20076B6E1A10",
+    "title": "Comedy"
+  },
+  {
+    "id": "6F4D360D-F8D0-4BFA-9E70-BEB3CA88E837",
+    "title": "Documentary"
+  },
+  {
+    "id": "9D975629-CCA8-40D2-8E5D-43E5120BF408",
+    "title": "Horror"
+  },
+  {
+    "id": "02727BE2-A2EE-4B6E-90C6-0485D2A78290",
+    "title": "Romance"
+  },
+  {
+    "id": "609ADE92-247D-4CF9-B079-B14B7379AE48",
+    "title": "Suspense"
+  },
+  {
+    "id": "545D3E1A-05CB-477E-9946-251079E0CC0C",
+    "title": "Thriller"
+  }
+]

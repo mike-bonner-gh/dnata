@@ -1,0 +1,87 @@
+[
+  {
+    "movieId": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301", // Movie 1
+    "userId": "BCDDC962-7FF9-40EC-A9F7-38320CA8ECC3", // User 1
+    "rating": 3.5
+  },
+  {
+    "movieId": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301", // Movie 1
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 4.1
+  },
+  {
+    "movieId": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301", // Movie 1
+    "userId": "7DABB5E9-0471-4AFE-A4A8-75BAD420D924", // User 3
+    "rating": 2.8
+  },
+  {
+    "movieId": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301", // Movie 1
+    "userId": "68E96EFB-C99C-42A1-91E9-2381BB26C998", // User 4
+    "rating": 2.4
+  },
+  {
+    "movieId": "FFDC1E42-8FDF-41D5-9097-BE165C8CD301", // Movie 1
+    "userId": "AEE3960B-AD5F-4E6F-80A1-E52AC73428CB", // User 5
+    "rating": 4.8
+  },
+  {
+    "movieId": "81D6191D-9AF3-4250-956B-19E2C063AB65", // Movie 2
+    "userId": "BCDDC962-7FF9-40EC-A9F7-38320CA8ECC3", // User 1
+    "rating": 4.6
+  },
+  {
+    "movieId": "81D6191D-9AF3-4250-956B-19E2C063AB65", // Movie 2
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 3.4
+  },
+  {
+    "movieId": "81D6191D-9AF3-4250-956B-19E2C063AB65", // Movie 2
+    "userId": "7DABB5E9-0471-4AFE-A4A8-75BAD420D924", // User 3
+    "rating": 2.0
+  },
+  {
+    "movieId": "81D6191D-9AF3-4250-956B-19E2C063AB65", // Movie 2
+    "userId": "68E96EFB-C99C-42A1-91E9-2381BB26C998", // User 4
+    "rating": 4.2
+  },
+  {
+    "movieId": "81D6191D-9AF3-4250-956B-19E2C063AB65", // Movie 2
+    "userId": "AEE3960B-AD5F-4E6F-80A1-E52AC73428CB", // User 5
+    "rating": 1.9
+  },
+  {
+    "movieId": "01F40D40-0DC2-4246-94F2-C15585FD7204", // Movie 3
+    "userId": "BCDDC962-7FF9-40EC-A9F7-38320CA8ECC3", // User 1
+    "rating": 5.0
+  },
+  {
+    "movieId": "01F40D40-0DC2-4246-94F2-C15585FD7204", // Movie 3
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 2.3
+  },
+  {
+    "movieId": "01F40D40-0DC2-4246-94F2-C15585FD7204", // Movie 3
+    "userId": "68E96EFB-C99C-42A1-91E9-2381BB26C998", // User 4
+    "rating": 1.3
+  },
+  {
+    "movieId": "D21D2D26-767F-4E1C-B609-5DE09F00F8BC", // Movie 4
+    "userId": "BCDDC962-7FF9-40EC-A9F7-38320CA8ECC3", // User 1
+    "rating": 4.1
+  },
+  {
+    "movieId": "D21D2D26-767F-4E1C-B609-5DE09F00F8BC", // Movie 4
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 4.2
+  },
+  {
+    "movieId": "6292CE4C-2167-47DC-84EF-06B8BB8463E8", // Movie 5
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 3.9
+  },
+  {
+    "movieId": "5E8D0DA9-FEDF-46C6-9C22-48DAF0315088", // Movie 6
+    "userId": "DC034C40-A62C-47EF-82B1-52C4A13C3B0B", // User 2
+    "rating": 2.6
+  }
+]
