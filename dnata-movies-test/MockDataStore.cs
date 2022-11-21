@@ -95,27 +95,6 @@ namespace dnata_movies_test
             }
         }
 
-        public List<MovieRating> GetTop5MoviesByUser(Guid userId) {
-            return this.movieRatings.Where(mr => mr.UserId == userId).OrderByDescending(mr => mr.Rating).Take(5).ToList();
-        }
-
-        public List<MovieRating> GetTop5Movies() {
-            List<MovieRating> result = new List<MovieRating>();
-
-            var ratings = from r in this.movieRatings
-                          group r by r.MovieId into grp
-                          select new {
-                              MovieId = grp.Key,
-                              AverageRating = grp.Average(ed => ed.Rating)
-                          };
-
-            var orderedList = ratings.OrderByDescending(rt => rt.AverageRating).ToList();
-
-            orderedList.ForEach(r => result.Add(new MovieRating() { Id = Guid.NewGuid(), MovieId = r.MovieId, Rating = r.AverageRating }));
-
-            return result;
-        }
-
         public void setRating(Guid userId, Guid movieId, int rating) {
             if (this.movieRatings.Where(mvr => mvr.UserId == userId && mvr.MovieId == movieId).Count() == 0) {
                 this.AddMovieRating(new MovieRating() { Id = Guid.NewGuid(), UserId = userId, MovieId = movieId, Rating = rating });
@@ -128,7 +107,7 @@ namespace dnata_movies_test
         }
 
         public IEnumerable<MovieRating> GetAllRatings() {
-            throw new NotImplementedException();
+            return this.movieRatings;
         }
     }
 }

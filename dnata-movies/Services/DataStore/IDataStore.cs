@@ -15,8 +15,6 @@ namespace Services.DataStore
         public void UpdateUser(User user);
         public void DeleteUser(User user);
         public void Load();
-        public List<MovieRating> GetTop5MoviesByUser(Guid userId);
-        public List<MovieRating> GetTop5Movies();
         public void setRating(Guid userId, Guid movieId, int rating);
     }
 }

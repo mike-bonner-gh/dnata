@@ -135,14 +135,6 @@ namespace Services.DataStore.FileDataStore
             this.userRepository.Update(user);
         }
 
-        public List<MovieRating> GetTop5Movies() {
-            return this.ratingRepository.GetTop5Movies();
-        }
-
-        public List<MovieRating> GetTop5MoviesByUser(Guid userId) {
-            return this.ratingRepository.GetTop5MoviesByUser(userId);
-        }
-
         public void setRating(Guid userId, Guid movieId, int rating) {
             this.ratingRepository.setRating(userId, movieId, rating);
         }

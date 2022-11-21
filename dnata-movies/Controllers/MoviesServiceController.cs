@@ -79,17 +79,28 @@ namespace DnataMovies.Controllers
         [Route("/movies/top5")]
         public ActionResult<IEnumerable<Movie>> GetTop5Movies() {
 
-            List<MovieRating> ratings = dataStore.GetTop5Movies();
+            List<MovieRating> result = new List<MovieRating>();
             List<Movie> movies = dataStore.GetAllMovies().ToList();
 
+            var ratings = from r in dataStore.GetAllRatings()
+                          group r by r.MovieId into grp
+                          select new {
+                              MovieId = grp.Key,
+                              AverageRating = grp.Average(ed => ed.Rating)
+                          };
+
+            var orderedList = ratings.OrderByDescending(rt => rt.AverageRating).ToList();
+
+            orderedList.ForEach(r => result.Add(new MovieRating() { Id = Guid.NewGuid(), MovieId = r.MovieId, Rating = r.AverageRating }));
+
             var setToRetrive = new HashSet<Guid>(ratings.Select(rbu => rbu.MovieId));
-            IEnumerable<Movie> result = MergeAndSortRatingsAndMovies(movies, ratings, setToRetrive);
+            IEnumerable<Movie> result2 = MergeAndSortRatingsAndMovies(movies, result, setToRetrive);
 
             if (result.Count() == 0) {
                 return NotFound("No movies could be found");
             }
             else {
-                return result.ToList();
+                return result2.ToList();
             }
         }
 
@@ -104,7 +115,7 @@ namespace DnataMovies.Controllers
                 return NotFound(String.Format("User {0} could not be found", userId));
             }
 
-            List<MovieRating> ratingsByUser = dataStore.GetTop5MoviesByUser(userId);
+            List<MovieRating> ratingsByUser = dataStore.GetAllRatings().Where(mr => mr.UserId == userId).OrderByDescending(mr => mr.Rating).Take(5).ToList();
             List<Movie> movies = dataStore.GetAllMovies().ToList();
 
             var setToRetrive = new HashSet<Guid>(ratingsByUser.Select(rbu => rbu.MovieId));
